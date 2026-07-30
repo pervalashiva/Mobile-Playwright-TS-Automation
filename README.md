@@ -8,7 +8,7 @@ Playwright + **TypeScript** framework for **mobile** UI automation against [Sauc
 | Language | TypeScript |
 | Pattern | Page Object Model |
 | Mobile strategy | Official device descriptors (touch, viewport, UA, DPR) |
-| Devices | Pixel 7, Pixel 7 landscape, iPhone 14 (Chromium), iPhone 14 (WebKit) |
+| Devices | Pixel 7, Pixel 7 landscape, iPhone 14 (WebKit) |
 | App under test | https://www.saucedemo.com |
 
 This mirrors the login / catalog / cart coverage from:
