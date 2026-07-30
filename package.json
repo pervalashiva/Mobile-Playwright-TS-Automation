@@ -1,0 +1,34 @@
+{
+  "name": "mobile-playwright-ts-automation",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript mobile automation framework for Sauce Demo (login, catalog, cart)",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:login": "playwright test tests/specs/login.spec.ts",
+    "test:catalog": "playwright test tests/specs/catalog.spec.ts",
+    "test:cart": "playwright test tests/specs/cart.spec.ts",
+    "test:android": "playwright test --project=pixel-7",
+    "test:ios": "playwright test --project=iphone-14",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "codegen:mobile": "playwright codegen --device=\"Pixel 7\" https://www.saucedemo.com"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "mobile",
+    "automation",
+    "sauce-demo"
+  ],
+  "author": "pervalashiva",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
